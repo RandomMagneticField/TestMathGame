@@ -26,6 +26,8 @@ def create_question(score):
 print("Welcome to the math game!\nTry and answer as much questions as you can!\nYou have 10 seconds per question, so be quick!\n")
 input("Input anything to start: ")
 
+# random comment
+
 # Initialisations
 score = 0
 fail = False
