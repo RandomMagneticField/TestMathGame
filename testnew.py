@@ -28,7 +28,7 @@ def calculator():
         except ValueError:
             print("Test.")
 
-        again = input("\nCalculate again? (y/n): ")
+        again = input("\nDo you want to calculate again? (y/n): ")
         if again.lower() != "y":
             break
 
