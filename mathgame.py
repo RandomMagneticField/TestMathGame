@@ -36,7 +36,7 @@ answer = 0
 start_time = 0.0
 
 # Main game loop
-while not fail:
+while fail:
     
     start_time = time.monotonic()
     
