@@ -1,5 +1,35 @@
-# this is a new file
+def calculator():
+    print("Simple Calculator")
+    print("Operations: +  -  *  /")
 
+    while True:
+        try:
+            a = float(input("\nEnter first number: "))
+            op = input("Enter operator (+, -, *, /): ")
+            b = float(input("Enter second number: "))
 
+            if op == "+":
+                result = a + b
+            elif op == "-":
+                result = a - b
+            elif op == "*":
+                result = a * b
+            elif op == "/":
+                if b == 0:
+                    print("Error: can't divide by zero")
+                    continue
+                result = a / b
+            else:
+                print("Invalid operator, try again")
+                continue
 
-# tis is a new update
+            print(f"Result: {a} {op} {b} = {result}")
+
+        except ValueError:
+            print("Invalid input, please enter a number")
+
+        again = input("\nCalculate again? (y/n): ")
+        if again.lower() != "y":
+            break
+
+calculator()
