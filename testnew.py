@@ -28,7 +28,11 @@ def calculator():
         except ValueError:
             print("Test.")
 
+<<<<<<< HEAD
         again = input("\nCDo ypu want to build a snowman (y/n): ")
+=======
+        again = input("\nDo you want to calculate again? (y/n): ")
+>>>>>>> calcchange
         if again.lower() != "y":
             break
 
