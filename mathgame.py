@@ -23,7 +23,9 @@ def create_question(score):
 
 # Start screen
 
-print("Welcome to the math game!\nTry and answer as much questions as you can!\nYou have 10 seconds per question, so be quick!\n")
+print("Welcome to the math game!")
+print("Try and answer as much questions as you can!")
+print("You have 10 seconds per question, so be quick!")
 input("Input anything to start: ")
 
 # Initialisations
