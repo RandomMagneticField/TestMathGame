@@ -26,7 +26,7 @@ def calculator():
             print(f"Result: {a} {op} {b} = {result}")
 
         except ValueError:
-            print("Invalid input, please enter a number")
+            print("Invalid input, only numbers are accepted.")
 
         again = input("\nCalculate again? (y/n): ")
         if again.lower() != "y":
